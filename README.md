@@ -4,14 +4,6 @@ HealthQuarters is a patient-facing healthcare web application for clinic discove
 
 It is built as a PHP + MySQL/MariaDB project intended to run in a local XAMPP environment. The application currently follows a flat-route structure at the project root, while shared logic is extracted into reusable `includes/`, `services/`, `config/`, `partials/`, and `data/` folders.
 
-## Suggested GitHub Repository Name
-
-`healthquarters-patient-portal`
-
-## Suggested GitHub Repository Description
-
-Patient-facing healthcare portal for HealthQuarters built with PHP, MySQL, Bootstrap, and PHPMailer, featuring service discovery, home service booking, corporate inquiries, patient dashboards, notifications, and PDF appointment confirmations.
-
 ## About The System
 
 HealthQuarters is designed to support the patient and public-facing side of a diagnostic and healthcare service platform. The current system focuses on:
