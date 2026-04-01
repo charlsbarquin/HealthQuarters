@@ -1,0 +1,156 @@
+<?php
+
+return [
+    'hero' => [
+        'eyebrow' => 'About HealthQuarters',
+        'title' => 'Your Trusted Healthcare Partner',
+        'description' => 'HealthQuarters is committed to making quality health diagnostics and care accessible to every Filipino in Albay — from our branches to your doorstep.',
+    ],
+    'profile' => [
+        'eyebrow' => 'Who We Are',
+        'title_html' => 'Profile of <em>HealthQuarters</em>',
+        'paragraphs' => [
+            'HealthQuarters is a licensed clinical laboratory and diagnostic center based in Albay, Philippines. We provide a comprehensive range of diagnostic services — from routine blood tests and imaging to specialized screenings — designed to support both individual and corporate health needs.',
+            'We operate three branches across Albay: in <strong>Ligao City</strong>, <strong>Polangui</strong>, and <strong>Tabaco City</strong>. Our Home Service program also brings licensed health professionals directly to patients across all 18 municipalities of the province.',
+            'Our mission is simple: make quality healthcare <strong>accessible, affordable, and convenient</strong> for every Filipino — whether at our clinic or at your doorstep.',
+        ],
+        'facts' => [
+            ['3', 'Branches across Albay'],
+            ['18', 'Municipalities with Home Service'],
+            ['720+', 'Barangays We Reach'],
+            ['24h', 'Lab Result Turnaround'],
+        ],
+    ],
+    'mission_vision' => [
+        'eyebrow' => 'Our Direction',
+        'title_html' => 'Mission &amp; <em>Vision</em>',
+        'mission' => [
+            'label' => 'Mission',
+            'heading' => 'Our Mission',
+            'text' => 'To provide accessible, accurate, and compassionate healthcare services to every individual and community in Albay — through quality diagnostics, home service care, and corporate health solutions that prioritize the well-being of every patient.',
+        ],
+        'vision' => [
+            'label' => 'Vision',
+            'heading' => 'Our Vision',
+            'text' => 'To be the leading healthcare diagnostics partner in the Bicol Region — recognized for excellence, innovation, and a genuine commitment to making quality healthcare available to all Filipinos, regardless of location or circumstance.',
+        ],
+    ],
+    'commitment' => [
+        'eyebrow' => 'Our Promise',
+        'title_html' => 'Our Commitment &amp; <em>Why Choose Us</em>',
+        'card_title' => 'Our Commitment',
+        'paragraphs' => [
+            'We are committed to transparency, integrity, and patient empowerment. By providing the right tools and information, we help every Filipino make informed decisions about their health.',
+            'We continuously update our services and facilities to reflect the latest clinical standards and best practices — because your trust is our highest priority.',
+        ],
+        'highlight' => 'Ready to begin your health journey with us? Explore our services, visit a branch, or request a home visit today.',
+        'why_title' => 'Why Choose HealthQuarters?',
+        'whys' => [
+            ['Convenience', 'Designed to meet patients\' needs — at the clinic or at home.'],
+            ['Accuracy', 'Every test performed under strict clinical standards.'],
+            ['Efficiency', 'Streamlined processes with fast lab result turnarounds.'],
+            ['Accessibility', 'Three branches and home service covering all of Albay.'],
+            ['Trust', 'Secure, confidential, and ethical handling of all patient information.'],
+        ],
+    ],
+    'orgchart' => [
+        'eyebrow' => 'Our Organization',
+        'title_html' => 'Organizational <em>Chart</em>',
+        'description' => 'Meet the dedicated doctors and staff behind HealthQuarters — serving three branches across Albay.',
+        'note' => 'Update staff names and positions below with your actual team members for each branch.',
+        'branches' => [
+            'ligao' => [
+                'label' => 'Ligao Branch',
+                'button_icon' => 'BR',
+                'leader_style' => '',
+                'staff_style' => '',
+                'dept_style' => '',
+                'leader' => ['MD', 'Dr. [Branch Medical Director]', 'Medical Director — Ligao Branch'],
+                'medical_staff' => [
+                    ['MD', 'Dr. [Physician Name]', 'Physician', 'General Practice'],
+                    ['MD', 'Dr. [Physician Name]', 'Physician', 'Internal Medicine'],
+                    ['LAB', '[Pathologist Name]', 'Pathologist', 'Laboratory'],
+                ],
+                'support_staff' => [
+                    ['MGR', '[Branch Manager]', 'Branch Manager', 'Operations'],
+                    ['MED', '[Medical Technologist]', 'Medical Technologist', 'Laboratory'],
+                    ['PHL', '[Phlebotomist]', 'Phlebotomist', 'Blood Collection'],
+                    ['BR', '[Radiologic Tech.]', 'Radiologic Technologist', 'Imaging'],
+                    ['ADM', '[Admin Staff]', 'Administrative Staff', 'Front Desk'],
+                    ['HSC', '[Home Service Staff]', 'Home Service Coordinator', 'Field Operations'],
+                ],
+            ],
+            'polangui' => [
+                'label' => 'Polangui Branch',
+                'button_icon' => 'BR',
+                'leader_style' => 'background:linear-gradient(135deg,#14485c,#2dbfb8);',
+                'staff_style' => 'style="border-top-color:var(--accent);"',
+                'dept_style' => 'style="background:#e8f7f6;color:#2dbfb8;"',
+                'leader' => ['MD', 'Dr. [Branch Medical Director]', 'Medical Director — Polangui Branch'],
+                'medical_staff' => [
+                    ['MD', 'Dr. [Physician Name]', 'Physician', 'General Practice'],
+                    ['LAB', '[Pathologist Name]', 'Pathologist', 'Laboratory'],
+                ],
+                'support_staff' => [
+                    ['MGR', '[Branch Manager]', 'Branch Manager', 'Operations'],
+                    ['MED', '[Medical Technologist]', 'Medical Technologist', 'Laboratory'],
+                    ['PHL', '[Phlebotomist]', 'Phlebotomist', 'Blood Collection'],
+                    ['ADM', '[Admin Staff]', 'Administrative Staff', 'Front Desk'],
+                ],
+            ],
+            'tabaco' => [
+                'label' => 'Tabaco Branch',
+                'button_icon' => 'BR',
+                'leader_style' => 'background:linear-gradient(135deg,#3a2c0f,#b7791f);',
+                'staff_style' => 'style="border-top-color:#f5c842;"',
+                'dept_style' => 'style="background:#fff8e1;color:#b7791f;"',
+                'leader' => ['MD', 'Dr. [Branch Medical Director]', 'Medical Director — Tabaco Branch'],
+                'medical_staff' => [
+                    ['MD', 'Dr. [Physician Name]', 'Physician', 'General Practice'],
+                    ['MD', 'Dr. [Physician Name]', 'Physician', 'Pediatrics'],
+                    ['LAB', '[Pathologist Name]', 'Pathologist', 'Laboratory'],
+                ],
+                'support_staff' => [
+                    ['MGR', '[Branch Manager]', 'Branch Manager', 'Operations'],
+                    ['MED', '[Medical Technologist]', 'Medical Technologist', 'Laboratory'],
+                    ['PHL', '[Phlebotomist]', 'Phlebotomist', 'Blood Collection'],
+                    ['BR', '[Radiologic Tech.]', 'Radiologic Technologist', 'Imaging'],
+                    ['ADM', '[Admin Staff]', 'Administrative Staff', 'Front Desk'],
+                ],
+            ],
+        ],
+    ],
+    'milestones' => [
+        'eyebrow' => 'Our Journey',
+        'title_html' => 'Milestones of <em>HealthQuarters</em>',
+        'description' => 'From a single clinic in Albay to a multi-branch healthcare network.',
+        'note' => 'Replace each milestone below with your actual dates and events.',
+        'origin' => [
+            'title' => 'How HealthQuarters Was Established',
+            'paragraphs' => [
+                'HealthQuarters was established with a simple but powerful vision: to make quality healthcare diagnostics accessible to every Filipino in Albay, regardless of location or financial circumstance.',
+                'Founded in <strong>[Year]</strong> in <strong>[City]</strong>, Albay, HealthQuarters began as a single-room clinical laboratory serving the local community. From the very beginning, the founders recognized that many patients — especially those in rural barangays — struggled to access basic diagnostic services due to distance, transportation challenges, and cost barriers.',
+                'With a commitment to bridging this gap, HealthQuarters gradually expanded its services, its team, and its reach — eventually establishing multiple branches across Albay and launching one of the region\'s first home-based laboratory service programs.',
+            ],
+        ],
+        'items' => [
+            ['[Year]', 'BR', 'Founding of HealthQuarters', 'HealthQuarters opens its first clinical laboratory in [City], Albay, offering basic blood tests and urinalysis to the local community.', 'Foundation'],
+            ['[Year]', 'LAB', 'Expansion of Laboratory Services', 'Added imaging services including X-ray and ultrasound, significantly expanding the scope of diagnostics available to patients.', 'Expansion'],
+            ['[Year]', 'BR', 'Opening of Second Branch', 'Opened the second HealthQuarters branch in [City], extending access to more communities across Albay.', 'Growth'],
+            ['[Year]', 'HS', 'Launch of Home Service Program', 'Launched the pioneering Home Service program, bringing licensed health professionals directly to patients\' homes across all Albay municipalities.', 'Innovation'],
+            ['[Year]', 'BR', 'Third Branch Established', 'Opened the third HealthQuarters branch in [City], completing coverage across the major population centers of Albay.', 'Growth'],
+            ['[Year]', 'CORP', 'Corporate Health Partnerships', 'Formalized corporate health packages, partnering with businesses, schools, and government agencies across Bicol for APE and drug testing.', 'Milestone'],
+            ['[Year]', 'WEB', 'Online Booking Platform Launched', 'Launched the HealthQuarters online booking system, allowing patients to schedule home service and clinic appointments anytime from any device.', 'Innovation'],
+            ['[Year]', 'NOW', 'Continuing to Grow', 'HealthQuarters continues to expand its services, team, and reach — committed to making quality healthcare accessible to every Filipino in Albay and beyond.', 'Present'],
+        ],
+    ],
+    'contact' => [
+        'eyebrow' => 'Get in Touch',
+        'title' => 'We\'d Love to Hear from You',
+        'description' => 'For inquiries, appointments, and corporate health partnerships, reach out to us through any of the channels below.',
+        'facebook_url' => 'https://www.facebook.com/healthquartersdiagnostic/',
+        'phone_display' => '0906-8800-028',
+        'phone_href' => 'tel:09068800028',
+        'booking_label' => 'Book an Appointment',
+    ],
+];
